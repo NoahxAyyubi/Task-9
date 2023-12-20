@@ -1,0 +1,38 @@
+/* TodoList.css */
+
+/* Style the list of tasks */
+.task-list {
+    list-style: none;
+    padding: 0;
+   
+  }
+  
+  /* Style each task item */
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #264414;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #91bd33;
+  }
+  
+  /* Style the task title */
+  .task-title {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  /* Style the edit and delete buttons */
+  .task-buttons button {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  /* Style the header */
+.todo-header {
+    background-color: #084600; 
+    text-align: center;
+    color: #d8e000; 
+    border-radius: 8px;
+}
